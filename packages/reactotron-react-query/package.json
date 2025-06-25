@@ -14,11 +14,8 @@
       "dev": "tsc -p tsconfig.json --watch",
       "test": "jest"
     },
-    "engines": {
-      "node": ">=18"
-    },
     "peerDependencies": {
-      "@tanstack/react-query": "^5.80.10",
+		  "@tanstack/react-query": "^4.40.1",
       "reactotron-core-client": "^2.9.7"
     },
     "exports": {
